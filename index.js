@@ -3,9 +3,7 @@ const express = require("express");
 const connectDb = require("./src/config/db");
 const { getTickers } = require("./src/controllers/tickerController");
 
-dotnev.config({
-    path: "src/config/.env"
-});
+dotnev.config();
 connectDb();
 
 const app = express();
