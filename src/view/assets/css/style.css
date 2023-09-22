@@ -290,7 +290,7 @@ footer{
 }
 
 .fixed-footer{
-    width: 100vmax;
+    width: 100vw;
     padding: 5px;
     position: fixed;
     bottom: 0;
@@ -300,11 +300,14 @@ footer{
 }
 
 .fixed-footer button{
+    width: calc(100% - 20px);
+    max-width: max-content;
     font-family: 'Inter', sans-serif;
     padding: 7px 14px;
     color: var(--teal1);
     border: 1px solid var(--teal1);
     border-radius: 5px;
+    text-wrap: wrap;
 }
 
 /* change table font size on dark mode */
