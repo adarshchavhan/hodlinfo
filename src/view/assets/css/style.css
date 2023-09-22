@@ -294,7 +294,7 @@ footer{
     padding: 5px;
     position: fixed;
     bottom: 0;
-    background: var(--text);
+    background: #191d29;
     display: flex;
     justify-content: center;
 }
